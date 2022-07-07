@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<title>Contact us for help</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/static/contact_us1.css">
+<link rel="stylesheet" href="/static/nav.css">
+
+    </head>
+    <body>
+	
+	 <section id="main">
+        <!---------nav-------------->
+        <nav>
+        <!----------logo-------->
+            <a href="Home" class="logo"> Blood Bank </a>
+        <!-------menu----------------->
+            <ul class="menu">
+                <li> <a href="Home" >HOME</a></li>
+                <li> <a href="NewDonor">NEW DONOR</a></li>
+                <li> <a href="About Us">ABOUT US</a></li>
+                <li> <a href="Contact US" class="active">CONTACT US</a></li>
+            </ul>
+        </nav>
+	</section>
+	<br>
+	<br>
+	
+	
+	
+<section class="contact">
+        <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+        <br>
+		<br>
+		
+        <div class="container">
+            <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////--> 
+            <div class="contactinfo">
+                <div class="box">
+                   <div class="icon"><i class="fa fa-map" aria-hidden="true"></i></div>
+                     <div class="text">
+                       <h3>Address</h3>
+					   <br>
+                        <p>A108 Adam Street<br> 6 October, NY 535</p>
+                     </div>
+                </div>
+                 
+                <div class="box">
+                   <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div> 
+                      <div class="text">
+                        <h3>Email</h3>
+						<br>
+                        <p>blood@gmail.com</p>
+                      </div>
+                </div>
+                 
+                 <div class="box">
+                   <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                      <div class="text">
+                        <h3>Phone</h3>
+						<br>
+                        <p>+1 5589 55488 55s</p>
+                      </div>
+                 </div>
+                 
+             </div>
+             <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+             <div class="contactform">
+                <form>
+                  <h2>Ask us</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full name</span>
+                    </div>
+                    
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Your message...</span>
+                    </div>
+            
+                    <div class="inputbox">
+                       <input type="submit" name="" value="Send">
+                    </div>
+                
+                 </form>    
+             </div>
+             <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        </div>
+        </section>   
+    
+    </body>
+</html>

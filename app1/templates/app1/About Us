@@ -1,0 +1,87 @@
+<!DOCTPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> About Us</title>
+	<link rel="stylesheet" href="/static/nav.css">
+    <link rel="stylesheet" href="/static/about_us.css">
+	
+	
+</head>
+<body>
+
+	 <section id="main">
+        <!---------nav-------------->
+        <nav>
+        <!----------logo-------->
+            <a href="home.php" class="logo"> Blood Bank </a>
+        <!-------menu----------------->
+            <ul class="menu">
+                <li> <a href="Home" >HOME</a></li>
+                <li> <a href="NewDonor">NEW DONOR</a></li>
+                <li> <a href="About Us" class="active">ABOUT US</a></li>
+                <li> <a href="Contact US"  >CONTACT US</a></li>
+            </ul>
+        </nav>
+	</section>
+	<br>
+	<br>
+	 
+    <div class="about-section">
+        <h1>About Us </h1>
+        <p>Each day, thousands of people – people just like you – provide compassionate care to those in need. Our network of generous donors, volunteers and employees share a mission of preventing and relieving suffering, here at home and around the world.
+            <br><br>
+            We roll up our sleeves and donate time, money and blood. We learn or teach life-saving skills so our communities can be better prepared when the need arises. We do this every day because the Red Vein is needed - every day.
+            <br><br>
+            There are eight different blood types and each one holds a unique power to save lives. OneBlood’s exclusive the Red Vein program shows donors how to give the most needed components of their blood by targeting how they donate. Click on the blood types below and learn how to unlock the power of your blood type and save more lives.
+            <br><br>
+            Blood transfusion is a complicated science. Many people don’t realize that there are many other variants besides blood type that can be a factor for compatibility. Many times these factors are related to your ethnicity, making your donation that much more important to patients in need.                            <br><br>
+            Learn about the blood donation process and the journey your donated blood travels from collection to distribution, including how potential donors are screened and how the blood is processed, tested and stored.
+            </p>
+      </div>
+      <div class="about-area">
+      <h2 >Core Values</h2>
+      <p>Our core values define what is most important to us as an organization. We strive to exemplify what these mean to us in everything we do in the community.</p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/static/red-heart icon.jpg" alt="icon" style="width:50%">
+            <div class="container">
+              <h2>INTEGRITY</h2>
+              <p>We have a responsibility to serve others with respect, honesty and compassion, and we put their well being above all else.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="/static/hospital icon.jpg" alt="icon" style="width:85%">
+              <div class="container">
+                <h2>ACCOUNTABILITY</h2>
+                <p>We are committed to live up to the confidence our donors, patients, partners, and fellow workers have in us and our actions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="/static/calendar icon.jpg" alt="icon" style="width:45%">
+              <div class="container">
+                <h2>EXCELLENCE</h2>
+                <p>We aim to provide the highest quality of products and services by embracing innovation and continually learning new ways to meet the needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="/static/teamwork icon.jpg" alt="icon" style="width:80%">
+              <div class="container">
+                <h2>TEAMWORK</h2>
+                <p>We achieve great things when we work as a community and focus on building communication with our partners.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+    
+</html>

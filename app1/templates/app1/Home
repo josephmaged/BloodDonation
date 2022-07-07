@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/home1.css">
+    <link rel="stylesheet" href="/static/search.css">
+    <title>Blood Bank</title>
+</head>
+
+<body>
+<!-------------main------------------------------->
+    <section id="main">
+        <!---------nav-------------->
+        <nav>
+        <!----------logo-------->
+            <a href="Home" class="logo"> Blood Bank </a>
+        <!-------menu----------------->
+            <ul class="menu">
+                <li> <a href="Home" class="active" >HOME</a></li>
+                <li> <a href="NewDonor">NEW DONOR</a></li>
+                <li> <a href="About Us">ABOUT US</a></li>
+                <li> <a href="Contact US">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <!--------------------------------------------------------->
+        <div class="name">
+            <div>
+                <h2>Welcome to Blood Bank Donate Blood, Save a Life</h2>	
+                
+            </div>
+		</div>
+		
+
+<br>	
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>
+<br>
+<!------------------------------------------------>
+<!-- Search Section -->
+
+<h1 align="center">SEARCH FOR BlOOD</h1>
+
+<form  align= "center"  action="home.php" method="post">
+	
+	<label name="blood">Search For Donor With Blood Group:</label>
+		  <select type="text" name="search" required value="">
+			<option value="A+">A+</option>
+			<option value="A-">A-</option>
+			<option value="B+">B+</option>
+			<option value="B-">B-</option>
+			<option value="O+">O+</option>
+			<option value="O-">O-</option>
+			<option value="AB+">AB+</option>
+			<option value="AB-">AB-</option> 
+			</select>
+
+		
+	
+<br>
+<br>	
+<label  name="Cities">Search For Donor By City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		  <select type="text" name="search2"  required>
+			<option value="">None</option>
+			<option value="Cairo">Cairo</option>
+			<option value="Alexandria">Alexandria</option>
+			<option value="Giza">Giza</option>
+			<option value="Tanta">Tanta</option>
+			<option value="Aswan" >Aswan</option>
+			<option value="Beni Suef">Beni Suef</option>
+			<option value="Faiyum">Faiyum</option>
+			<option value="Gharbia">Gharbia</option>
+			<option value="Ismailia">Ismailia</option>
+			<option value="Kafr El Sheikh">Kafr El Sheikh</option>
+			<option value="Luxor">Luxor</option>
+			<option value="Matruh">Matruh</option>
+			<option value="Asyut">Asyut</option>
+			<option value="Beheira">Beheira</option>
+			<option value="Minya">Minya</option>
+			<option value="Qena">Qena</option>
+			</select>
+
+
+
+<input type="submit" align= 'center' value="search" class="cta" >
+
+
+
+<br>
+
+
+
+
+
+
+</form>
+</section>
+<!-- End Search Section -->
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> New Donor </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/static/nav.css">
+<link rel="stylesheet" href="/static/New_donor1.css">
+</head>
+<body>
+
+<section id="main">
+        <!---------nav-------------->
+        <nav>
+        <!----------logo-------->
+            <a href="Home" class="logo"> Blood Bank </a>
+        <!-------menu----------------->
+            <ul class="menu">
+                <li> <a href="Home">HOME</a></li>
+                <li> <a href="NewDonor" class="active">NEW DONOR</a></li>
+                <li> <a href="About Us">ABOUT US</a></li>
+                <li> <a href="Contact US">CONTACT US</a></li>
+            </ul>
+        </nav>
+</section>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<form calss="hossam" action="new_donor.php" method="post">
+ <ul>
+		<h1 align ='center' class="h1">Donor Basic Info</h1>
+		<br>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" name="name" required placeholder="Your Name" >
+  </li>
+  
+  <li>
+	<label for="gender">Gender:</label>
+    <input type="radio"  name="gender" required value="male">Male
+	<input type="radio"  name="gender" required value="female">Female
+
+  </li>
+  
+  <li>
+    <label for="blood">Blood type:</label>
+		  <select type="text" name="bloodgroupe"  >
+			<option value="A+">A+</option>
+			<option value="A-">A-</option>
+			<option value="B+">B+</option>
+			<option value="B-">B-</option>
+			<option value="O+">O+</option>
+			<option value="O-">O-</option>
+			<option value="AB+">AB+</option>
+			<option value="AB-">AB-</option> 
+			</select>
+  </li>
+  
+  <li>
+    <label for="data">D.O.B:</label>
+    <input type = "date" name = "date" required>
+  </li>
+  
+  <li>
+    <label for="msg">address:</label>
+    <textarea id="msg" name="address"></textarea>
+  </li>
+  
+  <li>
+    <label for="email">E-mail:</label>
+    <input type="email"  name="email" required placeholder="Your email">
+  </li>
+  
+  
+   
+
+<li>
+    <label  name="Cities">City:</label>
+		  <select type="text" name="city"  value="" >
+			<option value="Cairo">Cairo</option>
+			<option value="Alexandria">Alexandria</option>
+			<option value="Giza">Giza</option>
+			<option value="Tanta">Tanta</option>
+			<option value="Aswan" >Aswan</option>
+			<option value="Beni Suef">Beni Suef</option>
+			<option value="Faiyum">Faiyum</option>
+			<option value="Gharbia">Gharbia</option>
+			<option value="Ismailia">Ismailia</option>
+			<option value="Kafr El Sheikh">Kafr El Sheikh</option>
+			<option value="Luxor">Luxor</option>
+			<option value="Matruh">Matruh</option>
+			<option value="Asyut">Asyut</option>
+			<option value="Beheira">Beheira</option>
+			<option value="Minya">Minya</option>
+			<option value="Qena">Qena</option>
+			</select>
+  </li>
+<li>
+    <label for="mobile">Mobile:</label>
+    <input type="number" name="mobile" required placeholder="+1000000000">
+  </li>
+  
+<li>
+	<label for="sumb"></label>
+  <input type="submit" name="insert" value="Add Donor">
+</li>
+ </ul>
+
+
+
+</form>
+
+
+
+
+</body>
+</html>
